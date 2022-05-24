@@ -91,7 +91,7 @@ public class App {
     public static void writeToFile(Node tree, Boolean hasBeenWritten, FileOutputStream fos) {
         try {
             if (tree == null) {
-                //System.out.println("There is nothing to show!");
+                System.out.println("There is nothing to show!");
                 return;
             }
             if (!hasBeenWritten) {
